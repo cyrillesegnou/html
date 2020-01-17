@@ -1,0 +1,78 @@
+:root{
+    --taille : 200px;
+    }
+h2 {
+                color: rgb(53, 40, 53);
+                font-size: 30px;
+                margin-left:35%;
+        }
+h1 {
+            color: rgb(53, 40, 53);
+            font-size: 30px;
+            margin-left:35%;
+    }
+.foo {
+    width: 50px;
+    height: 50px;
+    float: left;
+        }
+#info_perso {
+    width: 200px;
+      height:700px;
+        border: blue 5px solid;
+        border-radius: 2px;
+        padding: 5px;
+        margin-top: 10px;
+        text-justify: newspaper;
+        float: left;
+        }
+#experience {  
+      width: var(--taille);
+    height: var(--taille);
+      border: blue 1px solid;
+      border-radius: 5px;
+      padding: 30px;
+      margin-left: 250px;
+      text-justify: newspaper;
+      
+}
+
+#parcours {  
+    width: var(--taille);
+  height: var(--taille);
+    border: blue 1px solid;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 250px;
+    text-justify: newspaper;
+    
+}
+
+#competances {  
+    width: var(--taille);
+  height: var(--taille);
+    border: blue 1px solid;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 250px;
+    text-justify: newspaper;
+    
+}
+.bar {
+    width: 50px;
+    height: 50px;
+    float: rigth ;
+        }
+a:hover {
+    color: magenta;
+}
+#lorem::first-letter{
+    font-size: 50px;
+}
+a:link a:visited{
+    color: black;
+    text-decoration: chocolate;
+}
+body {
+    background-color: rgb(116, 15, 15) ;
+}

@@ -1,0 +1,45 @@
+:root{
+    --taille : 500px;
+    }
+h2 {
+                color: fuchsia;
+                font-size: xx-small;
+        }
+.foo {
+    width: 150px;
+    height: 150px;
+        }
+#lorem {
+    width: var(--taille);
+      height: var(--taille);
+        border: blue 1px solid;
+        border-radius: 5px;
+        padding: 30px;
+        margin-top: 20px;
+        text-justify: newspaper;
+        float: right;
+        }
+#upex {  
+      width: var(--taille);
+    height: var(--taille);
+      border: blue 1px solid;
+      border-radius: 5px;
+      padding: 30px;
+      margin-top: 20px;
+      text-justify: newspaper;
+      float: left;
+
+}
+.bar {
+        border: 10px green solid;
+        }
+a:hover {
+    color: magenta;
+}
+#lorem::first-letter{
+    font-size: 50px;
+}
+a:link a:visited{
+    color: black;
+    text-decoration: chocolate;
+}
